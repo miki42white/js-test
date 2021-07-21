@@ -32,11 +32,14 @@ main{
   padding-top: 70px;
 }
 .main-view__img img{
-  position: relative;
   width: 100%;
   display: block;
   background-size: cover;
+  object-fit: cover;
   height:40vh;
+}
+.main-view-wrap{
+  position:relative;
 }
 .main-view__ttl{
   position:absolute;
