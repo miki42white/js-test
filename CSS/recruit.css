@@ -33,18 +33,40 @@ main{
 }
 .main-view__img img{
   position: relative;
-  height: 200px;
   width: 100%;
   display: block;
   background-size: cover;
+  height:40vh;
 }
 .main-view__ttl{
   position:absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 30px;
+}
+table{
+  width:60%;
+  border-collapse: collapse;
+}
+table th,
+table td{
+  border:1px solid #000;
+  padding:20px;
+}
+table th{
+  font-weight: bold;
+  background-color: #f5f6f9;
+  width:30%;
+}
+.recruit-ttl{
+  font-size: 25px;
+  border-bottom:1px solid #000;
+  margin:100px 0 30px 0;
+}
+.recruit-content{
+  margin-bottom: 30px;
 }
 .btn-area{
   text-align: center;
