@@ -14,6 +14,7 @@ a{
   color:#000;
   width:100%;
   height:70px;
+  z-index: 10;
 }
 .header img{
   width:70px;
@@ -25,6 +26,9 @@ a{
   font-weight: bold;
   margin-right: 30px;
 }
+.header-nav-item:hover{
+  opacity: 0.7;
+}
 .header-nav-item:not(:last-child){
   margin-right:30px;
 }
@@ -32,30 +36,54 @@ main{
   padding-top: 70px;
 }
 .main-view__img img{
-  position: relative;
   width: 100%;
   display: block;
   background-size: cover;
   object-fit: cover;
   height:40vh;
 }
+.main-view-wrap{
+  position:relative;
+  margin-bottom:80px;
+}
 .main-view__ttl{
   position:absolute;
-  top: 30%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 30px;
 }
-.btn-area{
-  text-align: center;
-  margin:60px;
+.contact-form-item-name{
+  font-weight: bold;
+  padding:10px 0;
+  display:block;
+  margin-top: 20px;
 }
-.btn{
+.required-icon{
+  color:red;
+}
+.contact-form-item-input{
+  width:100%;
+  margin-top: 5px;
+  font-size: 16px;
+  padding:5px;
+  border:1px solid #ccc;
+}
+.contact-form-item-textarea{
+  width:100%;
+  font-size:16px;
+  padding:5px;
+  border:1px solid #ccc;
+}
+.contact-form-submit{
   background-color:#000;
   color:#fff;
   font-weight: bold;
-  padding:15px 70px;
+  width: 300px;
+  margin:20px auto 80px;
+  padding:10px;
+  display: block;
   cursor:pointer;
 }
 .btn:hover{

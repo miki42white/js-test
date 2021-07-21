@@ -24,22 +24,33 @@
   </div>
 </header>
 <main>
-  <div class="main-view__img">
-    <img src="img/mv.png" alt="">
+  <div class="main-view-wrap">
+    <div class="main-view__img">
+      <img src="img/mv.png" alt="">
+    </div>
+    <h2 class="main-view__ttl">お問い合わせ</h2>
   </div>
-  <h2 class="main-view__ttl">お問い合わせ</h2>
   <form action="" method="post">
   <div class="contact-form-item">
-
     <label class="contact-form-item-name" for="company">会社名</label>
     <input type="text" id="company" class="contact-form-item-input">
   </div>
-  
- 
-  </form>
-  <div class="btn-area">
-    <a href="contact.html" class="btn">お申し込み</a>
+  <div class="contact-form-item">
+    <label class="contact-form-item-name" for="name">お名前 <span class="required-icon">*</span></label>
+    <input type="text" id="name" class="contact-form-item-input" required>
   </div>
+  <div class="contact-form-item">
+    <label class="contact-form-item-name" for="email">メールアドレス <span class="required-icon">*</span></label>
+    <input type="email" id="email" class="contact-form-item-input" required>
+  </div>
+  <div class="contact-form-item">
+    <label class="contact-form-item-name" for="comment">お問い合わせ内容 <span class="required-icon">*</span></label>
+    <textarea id="comment" rows="8" cols="8" class="contact-form-item-textarea" required></textarea>
+  </div>
+  <div>
+    <input type="submit" value="お申し込み" class="contact-form-submit">
+  </div>
+  </form>
 </main>
 
 <footer class="footer">

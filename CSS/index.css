@@ -25,6 +25,9 @@ a{
   font-weight: bold;
   margin-right: 30px;
 }
+.header-nav-item:hover{
+  opacity: 0.7;
+}
 .header-nav-item:not(:last-child){
   margin-right:30px;
 }
@@ -56,6 +59,7 @@ main{
 }
 .sub-main__content{
   color:#fff;
+  width:80%;
 }
 .service__ttl{
   text-align: center;
