@@ -1,12 +1,11 @@
 'use strict';
 
 {
-const menu=document.getElementsByClassName('menu');
-for(let i=0; i< menu.length; i++){
-  menu[i].addEventListener('click',toggle);
-}
-function toggle(){
-  const content=this.nextElementSibling;
-  content.classList.toggle('is-open');
-}
+  const target = document.getElementById("menu");
+target.addEventListener('click', () => {
+  target.classList.toggle('open');
+  const nav = document.getElementById("drower-nav");
+  nav.classList.toggle('in');
+});
+
 }

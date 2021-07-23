@@ -53,8 +53,9 @@ main{
   color: #fff;
   font-size: 30px;
 }
-.compamy-info{
-  margin:0 auto;
+.company-info{
+  margin:100px auto;
+  width:80%;
 }
 .company-info-name,
 .company-info-data{
@@ -66,10 +67,11 @@ main{
 }
 .company-info-name{
   font-weight: bold;
-  width:30%;
+  padding-left: 200px;
 }
 .company-info-data{
   width:70%;
+  padding-right: 500px;
 }
 .btn-area{
   text-align: center;
