@@ -7,11 +7,6 @@ a{
 }
 .header{
   display:flex;
-
-}
-.menu-flex{
-  display: flex;
-  justify-content: space-between;
 }
 .header-wrap{
   position:fixed;
@@ -28,6 +23,7 @@ a{
   width:70px;
   display:block;
   padding-left: 30px;
+  /* z-index:30; */
 }
 .header-nav-list{
   display:flex;
@@ -60,8 +56,8 @@ main{
   width:100%;
 }
 @media screen and (max-width: 768px) {
-  .main-view-img{
-    width:20%;
+  .main-view-img img{
+    width:60%;
   }
   .main-view__content{
     width:50%;
@@ -124,8 +120,13 @@ main{
 }
 @media screen and (max-width: 768px) {
   .service-wrap{
-    width:20%:
+    width: 50%;
   }
+  .service-flex1,
+  .service-flex2{
+  display: block;
+  margin:0 auto;
+}
 }
 .btn-area{
   text-align: center;
@@ -148,6 +149,11 @@ main{
 .news-wrap{
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .news-box{
+    width:50%;
+  }
 }
 .news-btn-area{
   padding:15px 0;
@@ -175,10 +181,18 @@ main{
 .blog{
   display:flex;
   justify-content: space-between;
-  margin:50px 200px;
+  margin:50px auto;
 }
-.blog-content img{
-  width:350px;
+@media screen and (max-width: 768px) {
+  .blog-wrap{
+    width:50%;
+  }
+  .blog{
+    display:block;
+  }
+}
+.blog-content-img{
+  width:100px;
   margin-bottom: 10px;
   cursor:pointer;
 }
@@ -222,11 +236,21 @@ main{
   width:50%;
   cursor:pointer;
 }
+@media screen and (max-width: 768px) {
+  .campany-recruit-wrap{
+    width:50%;
+  }
+}
 .contact-box{
   width:100%;
   height:300px;
   background-color: #eeeeee;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .contact-box{
+  width:50%;
+}
 }
 .contact-box h3{
   font-size: 30px;
@@ -258,7 +282,22 @@ main{
   padding-right: 10px;
   border-left: 1px solid #fff;
 }
-
+@media screen and (max-width: 768px) {
+  .footer{
+    width:50%;
+    height:200px;
+    /* padding-top: 100px; */
+  }
+  .footer-nav-list{
+    display:block;
+  }
+  small{
+    padding-top: 100px;
+  }
+  .footer-nav-item{
+    border-left: none;
+    padding-top: 15px;
+}
 @media screen and (max-width: 768px) {
   .header-nav-list{
     display:none;

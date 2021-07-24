@@ -9,7 +9,6 @@
 </head>
 <body>
 <header class="header">
-  <div class="menu-flex">
     <div class="header-wrap">
       <img src="img/logo.png" alt="">
       <nav class="header-nav">
@@ -23,13 +22,12 @@
           <li class="header-nav-item"><a href="contact.html">お問い合わせ</a></li>
         </ul>
       </nav>
+      <div class="menu" id="menu">
+        <span class="menu__line--top"></span>
+        <span class="menu__line--middle"></span>
+        <span class="menu__line--bottom"></span>
+      </div>
     </div>
-    <div class="menu" id="menu">
-      <span class="menu__line--top"></span>
-      <span class="menu__line--middle"></span>
-      <span class="menu__line--bottom"></span>
-    </div>
-  </div>
   <nav class="drawer-nav in" id="drower-nav">
     <ul class="drawer-nav-list open">
       <li class="drawer-nav-item"><a href="#">ホーム</a></li>
@@ -110,7 +108,9 @@
       <p><a href="">会社を創業した理由</a></p>
     </div>
     <div class="blog-content">
-      <img src="img/blog.png" alt="">
+      <div class="blog-content-img">
+        <img src="img/blog.png" alt="">
+      </div>
       <time>2019/11/11</time>
       <p><a href="">ITエンジニアを育成する最強メソッド</a></p>
     </div>
