@@ -9,6 +9,10 @@ a{
   display:flex;
 
 }
+.menu-flex{
+  display: flex;
+  justify-content: space-between;
+}
 .header-wrap{
   position:fixed;
   display: flex;
@@ -287,6 +291,7 @@ main{
     position: relative;
     left: 20px;
     top: 20px;
+    z-index: 20;
   }
   .menu__line--top,
   .menu__line--middle,
@@ -297,6 +302,7 @@ main{
     background-color: #000;
     position: absolute;
     transition: 0.5s;
+    
   }
   .menu__line--top {
     top: 0;
@@ -327,7 +333,7 @@ main{
     height:32px;
     cursor:pointer;
     position: relative;
-    z-index:10;
+    z-index:20;
   }
   .drawer-nav-list{
     display:block;
