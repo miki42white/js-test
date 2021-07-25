@@ -1,6 +1,3 @@
-body{
-  width:1500px;
-}
 a{
   text-decoration: none;
   color:inherit;
@@ -23,7 +20,6 @@ a{
   width:70px;
   display:block;
   padding-left: 30px;
-  /* z-index:30; */
 }
 .header-nav-list{
   display:flex;
@@ -42,8 +38,8 @@ a{
   height: 32px;
   cursor: pointer;
   position: relative;
-  left: 20px;
-  top: 20px;
+  left: 50%;
+  top: 50%;
 }
 .drawer-nav-list{
   display:none;
@@ -57,16 +53,17 @@ main{
 }
 @media screen and (max-width: 768px) {
   .main-view-img img{
-    width:60%;
+    width:100%;
   }
   .main-view__content{
-    width:50%;
+    width:100%;
+    margin:0 auto;
   }
 }
 .main-view__content{
   position:absolute;
-  top:50%;
-  left:20%;
+  top:30%;
+  left:10%;
   color:#fff;
   width:100%;
 }
@@ -79,11 +76,20 @@ main{
 .sub-main-box{
   background-color: #000;
   width:100%;
-  padding:50px 100px;
+  padding:50px 50px;
 }
 @media screen and (max-width: 768px) {
   .sub-main-box{
-    width:40%;
+    width:100%;
+    padding:0;
+    height:350px;
+  }
+  .sub-main__ttl{
+    padding:80px 0 0 70px;
+  }
+  .sub-main__content{
+    width:100%;
+    padding-left: 70px;
   }
 }
 .sub-main__ttl{
@@ -94,6 +100,7 @@ main{
 .sub-main__content{
   color:#fff;
   width:80%;
+  line-height: 25px;
 }
 .service__ttl{
   text-align: center;
@@ -120,7 +127,7 @@ main{
 }
 @media screen and (max-width: 768px) {
   .service-wrap{
-    width: 50%;
+    width: 80%;
   }
   .service-flex1,
   .service-flex2{
@@ -152,7 +159,7 @@ main{
 }
 @media screen and (max-width: 768px) {
   .news-box{
-    width:50%;
+    width:100%;
   }
 }
 .news-btn-area{
@@ -168,7 +175,7 @@ main{
 .news-box p{
   background-color: #fff;
   padding:25px 60px;
-  width:900px;
+  width:60%;
   margin:15px auto;
   cursor: pointer;
 }
@@ -178,6 +185,18 @@ main{
 .news-box span{
   font-weight: bold;
 }
+@media screen and (max-width: 768px) {
+  .news-box h3{
+    margin:0 0 20px 100px;
+  }
+  .news-btn-area{
+    padding:0;
+    margin: 100px 100px 0 0;
+  }
+  .btn{
+    padding:15px 20px;
+  }
+}
 .blog{
   display:flex;
   justify-content: space-between;
@@ -185,14 +204,17 @@ main{
 }
 @media screen and (max-width: 768px) {
   .blog-wrap{
-    width:50%;
+    width:80%;
   }
   .blog{
     display:block;
   }
+  .blog-content-img img{
+    width:90%;
+  }
 }
-.blog-content-img{
-  width:100px;
+.blog-content-img img{
+  width:100%;
   margin-bottom: 10px;
   cursor:pointer;
 }
@@ -238,7 +260,7 @@ main{
 }
 @media screen and (max-width: 768px) {
   .campany-recruit-wrap{
-    width:50%;
+    width:100%;
   }
 }
 .contact-box{
@@ -249,7 +271,7 @@ main{
 }
 @media screen and (max-width: 768px) {
   .contact-box{
-  width:50%;
+  width:100%;
 }
 }
 .contact-box h3{
@@ -284,9 +306,8 @@ main{
 }
 @media screen and (max-width: 768px) {
   .footer{
-    width:50%;
+    width:100%;
     height:200px;
-    /* padding-top: 100px; */
   }
   .footer-nav-list{
     display:block;
