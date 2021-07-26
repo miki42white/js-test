@@ -1,3 +1,6 @@
+* {
+  outline: 1px solid red !important;
+}
 a{
   text-decoration: none;
   color:inherit;
@@ -33,13 +36,7 @@ a{
   margin-right:30px;
 }
 .menu {
-  display: inline-block;
-  width: 36px;
-  height: 32px;
-  cursor: pointer;
-  position: relative;
-  left: 50%;
-  top: 50%;
+  display: none;
 }
 .drawer-nav-list{
   display:none;
@@ -50,6 +47,7 @@ main{
 .main-view-img{
   position:relative;
   width:100%;
+  object-fit: cover;
 }
 @media screen and (max-width: 768px) {
   .main-view-img img{
@@ -65,10 +63,11 @@ main{
   top:30%;
   left:10%;
   color:#fff;
-  width:100%;
+  width:70%;
 }
 .main-view__ttl{
   font-size:50px;
+  padding:0;
 }
 .main-view__sub-ttl{
   font-size: 20px;
@@ -76,31 +75,33 @@ main{
 .sub-main-box{
   background-color: #000;
   width:100%;
-  padding:50px 50px;
+  padding:0;
+}
+.sub-main__ttl{
+  color:#fff;
+  font-size:30px;
+  margin-bottom: 30px;
+  padding:50px 0 0 100px;
+}
+.sub-main__content{
+  color:#fff;
+  width:80%;
+  line-height: 25px;
+  padding:0 0 50px 100px;
 }
 @media screen and (max-width: 768px) {
   .sub-main-box{
     width:100%;
     padding:0;
-    height:350px;
+    height:400px;
   }
   .sub-main__ttl{
     padding:80px 0 0 70px;
   }
   .sub-main__content{
     width:100%;
-    padding-left: 70px;
+    padding:0;
   }
-}
-.sub-main__ttl{
-  color:#fff;
-  font-size:30px;
-  margin-bottom: 30px;
-}
-.sub-main__content{
-  color:#fff;
-  width:80%;
-  line-height: 25px;
 }
 .service__ttl{
   text-align: center;
@@ -114,7 +115,7 @@ main{
   margin:30px 230px;
 }
 .service-img{
-  width:500px;
+  width:80%;
 }
 .service-content__ttl{
   font-size: 20px;
@@ -123,11 +124,12 @@ main{
 }
 .service-content{
   line-height: 30px;
-  width:500px;
+  width:80%;
 }
 @media screen and (max-width: 768px) {
   .service-wrap{
     width: 80%;
+    margin:0 auto;
   }
   .service-flex1,
   .service-flex2{
