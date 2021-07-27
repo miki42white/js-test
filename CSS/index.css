@@ -51,8 +51,8 @@ main{
 }
 .main-view__content{
   position:absolute;
-  top:50%;
-  left:20%;
+  top:30%;
+  left:15%;
   color:#fff;
   width:70%;
 }
@@ -62,17 +62,6 @@ main{
 }
 .main-view__sub-ttl{
   font-size: 20px;
-}
-@media screen and (max-width: 768px) {
-  .main-view-img img{
-    width:100%;
-  }
-  .main-view__content{
-    width:80%;
-    margin:0 auto;
-    top:30%;
-    left:10%;
-  }
 }
 .sub-main-box{
   background-color: #000;
@@ -141,6 +130,9 @@ main{
 .service__ttl{
   margin-bottom: 50px;
 }
+.service-img{
+  width:100%;
+}
 }
 .btn-area{
   text-align: center;
@@ -171,13 +163,13 @@ main{
 }
 .news-btn-area{
   padding:15px 0;
-  margin: 100px 250px 0 0;
+  margin:10% 10% 0 0;
 }
 .news-box h3{
   color:#fff;
   font-size: 30px;
   padding-top:100px;
-  margin: 0 0 30px 250px;
+  margin-left: 10%;
 }
 .news-box p{
   background-color: #fff;
@@ -209,22 +201,14 @@ main{
   justify-content: space-between;
   margin:50px auto;
 }
-@media screen and (max-width: 768px) {
-  .blog-wrap{
-    width:80%;
-    margin:0 auto;
-  }
-  .blog{
-    display:block;
-  }
-  .blog-content-img img{
-    width:90%;
-  }
-}
-.blog-content-img img{
+.blog-content-img{
   width:80%;
   margin-bottom: 10px;
   cursor:pointer;
+  margin:0 auto;
+}
+.blog-content-img img{
+  width:100%;
 }
 .blog-content img:hover{
   opacity: 0.7;
@@ -242,6 +226,27 @@ main{
 }
 .blog-content p:hover{
   opacity: 0.7;
+}
+.blog-content{
+  margin:0 auto;
+}
+.blog-description{
+  margin-left:10%;
+}
+@media screen and (max-width: 768px) {
+  .blog-wrap{
+    width:80%;
+    margin:0 auto;
+  }
+  .blog{
+    display:block;
+  }
+  .blog-content-img{
+    width:100%;
+  }
+  .blog-description{
+    margin-left:0;
+  }
 }
 .campany-recruit-wrap{
   display:flex;
