@@ -79,6 +79,19 @@ main{
   width:70%;
   padding-right: 500px;
 }
+@media screen and (max-width: 768px) {
+  td{
+    white-space: nowrap;
+  }
+  .company-info-name{
+    font-weight: bold;
+    padding-left:150px;
+  }
+  .company-info-data{
+    width:70%;
+    padding: 0 500px 0 100px;
+  }
+}
 .btn-area{
   text-align: center;
   margin:60px;
@@ -225,8 +238,9 @@ main{
     cursor:pointer;
     position: relative;
     z-index:30;
-    top:30px;
+    top:20px;
     left:600px;
+    position:fixed;
   }
   .drawer-nav-list{
     display:block;

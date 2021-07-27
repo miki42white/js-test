@@ -49,19 +49,10 @@ main{
 .main-view-img img{
   width:100%;
 }
-@media screen and (max-width: 768px) {
-  .main-view-img img{
-    width:100%;
-  }
-  .main-view__content{
-    width:100%;
-    margin:0 auto;
-  }
-}
 .main-view__content{
   position:absolute;
-  top:30%;
-  left:10%;
+  top:50%;
+  left:20%;
   color:#fff;
   width:70%;
 }
@@ -71,6 +62,17 @@ main{
 }
 .main-view__sub-ttl{
   font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .main-view-img img{
+    width:100%;
+  }
+  .main-view__content{
+    width:80%;
+    margin:0 auto;
+    top:30%;
+    left:10%;
+  }
 }
 .sub-main-box{
   background-color: #000;
@@ -99,8 +101,8 @@ main{
     padding:80px 0 0 70px;
   }
   .sub-main__content{
-    width:100%;
-    padding:0;
+    width:80%;
+    padding:0 20px;
   }
 }
 .service__ttl{
@@ -135,6 +137,9 @@ main{
   .service-flex2{
   display: block;
   margin:0 auto;
+}
+.service__ttl{
+  margin-bottom: 50px;
 }
 }
 .btn-area{
@@ -397,8 +402,9 @@ main{
     cursor:pointer;
     position: relative;
     z-index:30;
-    top:30px;
+    top:20px;
     left:600px;
+    position:fixed;
   }
   .drawer-nav-list{
     display:block;
