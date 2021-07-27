@@ -62,12 +62,16 @@ main{
 .blog{
   display:flex;
   justify-content: space-between;
-  margin:50px 200px;
+  margin-top:100px;
+  margin-left:10%;
 }
-.blog-content img{
+.blog-content-img{
   width:80%;
   margin-bottom: 10px;
   cursor:pointer;
+}
+.blog-content-img img{
+  width:100%;
 }
 .blog-content img:hover{
   opacity: 0.7;
@@ -87,11 +91,19 @@ main{
   opacity: 0.7;
 }
 @media screen and (max-width: 768px) {
+  .main-view__img{
+    margin-bottom: 100px;
+  }
   .blog{
     display:block;
+    margin:0;
   }
-  .blog-content img{
-    width:100%;
+  .blog-content-img{
+    width:80%;
+    margin:0 auto;
+  }
+  .blog-content p,time{
+    margin-left:10%;
   }
 }
 .contact-box{
@@ -240,7 +252,7 @@ main{
     position: relative;
     z-index:30;
     top:20px;
-    left:600px;
+    left:90%;
     position:fixed;
   }
   .drawer-nav-list{

@@ -59,6 +59,9 @@ main{
   color: #fff;
   font-size: 30px;
 }
+.recruit-wrap{
+  margin-left:10%;
+}
 table{
   width:60%;
   border-collapse: collapse;
@@ -80,6 +83,18 @@ table th{
 }
 .recruit-content{
   margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .recruit-wrap{
+    width:80%;
+    margin:0 auto;
+  }
+  table{
+    width:100%;
+  }
+  th,td{
+    white-space: nowrap;
+  }
 }
 .btn-area{
   text-align: center;
@@ -229,7 +244,7 @@ table th{
     position: relative;
     z-index:30;
     top:20px;
-    left:600px;
+    left:90%;
     position:fixed;
   }
   .drawer-nav-list{

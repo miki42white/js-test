@@ -80,12 +80,15 @@ main{
   padding-right: 500px;
 }
 @media screen and (max-width: 768px) {
+  .company-info{
+    width:80%;
+  }
   td{
     white-space: nowrap;
   }
   .company-info-name{
     font-weight: bold;
-    padding-left:150px;
+    padding-left:10%;
   }
   .company-info-data{
     width:70%;
@@ -239,7 +242,7 @@ main{
     position: relative;
     z-index:30;
     top:20px;
-    left:600px;
+    left:90%;
     position:fixed;
   }
   .drawer-nav-list{

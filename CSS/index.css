@@ -403,7 +403,7 @@ main{
     position: relative;
     z-index:30;
     top:20px;
-    left:600px;
+    left:90%;
     position:fixed;
   }
   .drawer-nav-list{
