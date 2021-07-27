@@ -321,7 +321,8 @@ main{
   .footer-nav-item{
     border-left: none;
     padding-top: 15px;
-}
+  }
+  }
 @media screen and (max-width: 768px) {
   .header-nav-list{
     display:none;
@@ -395,7 +396,9 @@ main{
     height:32px;
     cursor:pointer;
     position: relative;
-    z-index:20;
+    z-index:30;
+    top:30px;
+    left:600px;
   }
   .drawer-nav-list{
     display:block;

@@ -2,6 +2,9 @@ a{
   text-decoration: none;
   color:inherit;
 }
+.header{
+  display:flex;
+}
 .header-wrap{
   position:fixed;
   display: flex;
@@ -28,6 +31,12 @@ a{
 }
 .header-nav-item:not(:last-child){
   margin-right:30px;
+}
+.menu {
+  display: none;
+}
+.drawer-nav-list{
+  display:none;
 }
 main{
   padding-top: 70px;
@@ -90,6 +99,12 @@ main{
   height:300px;
   background-color: #eeeeee;
   text-align: center;
+  margin-top: 50px;
+}
+@media screen and (max-width: 768px) {
+  .contact-box{
+  width:100%;
+}
 }
 .contact-box h3{
   font-size: 30px;
@@ -148,7 +163,8 @@ main{
   .footer-nav-item{
     border-left: none;
     padding-top: 15px;
-}
+  }
+  }
 @media screen and (max-width: 768px) {
   .header-nav-list{
     display:none;
@@ -222,7 +238,9 @@ main{
     height:32px;
     cursor:pointer;
     position: relative;
-    z-index:20;
+    z-index:30;
+    top:30px;
+    left:600px;
   }
   .drawer-nav-list{
     display:block;
