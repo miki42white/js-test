@@ -181,6 +181,7 @@ main{
     transition: .7s;
     text-align: center;
     z-index:20;
+    position:fixed;
   }
   .drawer-nav-list{
     padding-top: 80px;

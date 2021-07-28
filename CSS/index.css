@@ -110,7 +110,7 @@ main{
   width:90%;
 }
 .service-img{
-  width:80%;
+  width:100%;
 }
 .service-img img{
   width:100%;
@@ -120,15 +120,17 @@ main{
 .service-2,
 .service-3,
 .service-4{
-  width:90%;
+  width:45%;
 }
 .service-content__ttl{
   font-size: 20px;
   font-weight: bold;
   padding:10px 0;
+  width:80%;
 }
 .service-content{
   line-height: 30px;
+  width:100%;
 }
 @media screen and (max-width: 768px) {
   .service-wrap{
@@ -146,6 +148,12 @@ main{
   .service-img{
     width:100%;
   }
+  .service-1,
+  .service-2,
+  .service-3,
+  .service-4{
+    width:100%;
+}
 }
 .btn-area{
   text-align: center;
@@ -345,6 +353,7 @@ main{
     transition: .7s;
     text-align: center;
     z-index:20;
+    position:fixed;
   }
   .drawer-nav-list{
     padding-top: 80px;
