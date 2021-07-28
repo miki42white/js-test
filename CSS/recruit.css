@@ -63,7 +63,7 @@ main{
   margin-left:10%;
 }
 table{
-  width:60%;
+  width:90%;
   border-collapse: collapse;
 }
 table th,
@@ -80,6 +80,7 @@ table th{
   font-size: 25px;
   border-bottom:1px solid #000;
   margin:100px 0 30px 0;
+  width:90%;
 }
 .recruit-content{
   margin-bottom: 30px;
