@@ -80,7 +80,7 @@ main{
   width:80%;
   line-height: 25px;
   padding:0 0 50px 0;
-  text-align: center;
+  text-align: left;
   margin:0 auto;
 }
 @media screen and (max-width: 768px) {
@@ -158,21 +158,18 @@ main{
 .news-wrap{
   display: flex;
   justify-content: space-between;
+  width:60%;
+  margin:0 auto;
+  padding-top:10%;
 }
 @media screen and (max-width: 768px) {
   .news-box{
     width:100%;
   }
 }
-.news-btn-area{
-  padding:15px 0;
-  margin:10% 10% 0 0;
-}
 .news-box h3{
   color:#fff;
   font-size: 30px;
-  padding-top:100px;
-  margin-left: 10%;
 }
 .news-box p{
   background-color: #fff;
