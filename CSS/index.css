@@ -100,16 +100,27 @@ main{
 .service__ttl{
   text-align: center;
   font-size: 30px;
-  margin-top:100px;
+  margin:100px 0 50px;
 }
 .service-flex1,
 .service-flex2{
   display:flex;
   justify-content: space-between;
-  margin:30px 230px;
+  margin:0 auto;
+  width:90%;
 }
 .service-img{
   width:80%;
+}
+.service-img img{
+  width:100%;
+  height:100%;
+}
+.service-1,
+.service-2,
+.service-3,
+.service-4{
+  width:90%;
 }
 .service-content__ttl{
   font-size: 20px;
@@ -118,7 +129,6 @@ main{
 }
 .service-content{
   line-height: 30px;
-  width:80%;
 }
 @media screen and (max-width: 768px) {
   .service-wrap{
@@ -129,13 +139,13 @@ main{
   .service-flex2{
   display: block;
   margin:0 auto;
-}
-.service__ttl{
-  margin-bottom: 50px;
-}
-.service-img{
-  width:100%;
-}
+  }
+  .service__ttl{
+    margin-bottom: 50px;
+  }
+  .service-img{
+    width:100%;
+  }
 }
 .btn-area{
   text-align: center;
@@ -158,14 +168,9 @@ main{
 .news-wrap{
   display: flex;
   justify-content: space-between;
-  width:60%;
+  width:80%;
   margin:0 auto;
   padding-top:10%;
-}
-@media screen and (max-width: 768px) {
-  .news-box{
-    width:100%;
-  }
 }
 .news-box h3{
   color:#fff;
@@ -174,7 +179,7 @@ main{
 .news-box p{
   background-color: #fff;
   padding:25px 60px;
-  width:60%;
+  width:80%;
   margin:15px auto;
   cursor: pointer;
 }
@@ -185,13 +190,6 @@ main{
   font-weight: bold;
 }
 @media screen and (max-width: 768px) {
-  .news-box h3{
-    margin:0 0 20px 100px;
-  }
-  .news-btn-area{
-    padding:0;
-    margin: 100px 100px 0 0;
-  }
   .btn{
     padding:15px 20px;
   }
