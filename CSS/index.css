@@ -55,6 +55,7 @@ main{
   left:15%;
   color:#fff;
   width:70%;
+  text-align: center;
 }
 .main-view__ttl{
   font-size:50px;
@@ -72,13 +73,15 @@ main{
   color:#fff;
   font-size:30px;
   margin-bottom: 30px;
-  padding:50px 0 0 100px;
+  padding:50px 0 0 50px;
 }
 .sub-main__content{
   color:#fff;
   width:80%;
   line-height: 25px;
-  padding:0 0 50px 100px;
+  padding:0 0 50px 0;
+  text-align: center;
+  margin:0 auto;
 }
 @media screen and (max-width: 768px) {
   .sub-main-box{
